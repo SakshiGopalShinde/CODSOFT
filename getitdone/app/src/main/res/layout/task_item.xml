@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@color/white"
+    android:layout_marginBottom="8dp"
+    android:elevation="2dp">
+
+    <CheckBox
+        android:id="@+id/taskCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/taskTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/taskCheckBox"
+        android:layout_marginEnd="8dp"/>
+
+    <TextView
+        android:id="@+id/taskDescriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/taskTitleTextView"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/taskCheckBox"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"/>
+
+    <TextView
+        android:id="@+id/taskDeadlineTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/taskDescriptionTextView"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/taskCheckBox"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"/>
+
+    <ImageView
+        android:id="@+id/editTaskIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="45dp"
+        android:layout_toStartOf="@id/taskCheckBox"
+        android:contentDescription="Edit Task"
+        android:src="@drawable/ic_edit" />
+
+    <ImageView
+        android:id="@+id/deleteTaskIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_toStartOf="@id/editTaskIcon"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_delete"
+        android:contentDescription="Delete Task" />
+</RelativeLayout>

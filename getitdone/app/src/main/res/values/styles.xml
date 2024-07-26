@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Theme.GetItDone" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/cyan</item>
+        <item name="colorPrimaryVariant">@color/magenta</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/magenta</item>
+        <item name="colorSecondaryVariant">@color/cyan</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="colorOnBackground">@color/black</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="android:buttonStyle">@style/CustomButtonStyle</item>
+        <item name="android:editTextStyle">@style/CustomEditTextStyle</item>
+    </style>
+
+    <!-- Custom button style -->
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <!-- Custom EditText style -->
+    <style name="CustomEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edit_text_background</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

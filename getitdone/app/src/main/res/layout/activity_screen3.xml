@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"/>
+
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:padding="12dp"
+        android:layout_below="@id/titleEditText"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_background"/>
+
+    <TextView
+        android:id="@+id/deadlineTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Deadline"
+        android:padding="12dp"
+        android:layout_below="@id/descriptionEditText"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/addTaskButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:layout_below="@id/deadlineTextView"
+        android:layout_marginTop="16dp"
+        android:background="@color/magenta"
+        android:textColor="@color/white"
+        android:padding="16dp"/>
+</RelativeLayout>
