@@ -1,3 +1,5 @@
-# CODSOFT
-Android App Development Internship Projects:
-This repository contains the Android application projects developed during my internship at Codsoft. Each project showcases various aspects of Android app development, including UI design, functionality, and user experience enhancements.
+Codsoft Android App Development Internship Projects:
+This repository contains the projects developed during my Android app development internship at Codsoft.
+
+Projects
+1.GetItDone: A to-do list application designed to help users manage tasks efficiently
