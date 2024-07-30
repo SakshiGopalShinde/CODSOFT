@@ -1,0 +1,15 @@
+<!-- res/values/colors.xml -->
+<resources>
+    <color name="colorPrimary">#021526</color>
+    <color name="colorPrimaryDark">#03346E</color>
+    <color name="colorAccent">#6EACDA</color>
+    <color name="colorBackground">#E2E2B6</color>
+    <color name="background_color">#E2E2B6</color> <!-- Add this line -->
+    <color name="button_color">#6EACDA</color> <!-- Add this line -->
+    <color name="border_color">#6EACDA</color> <!-- Border color for alarm item -->
+    <color name="button_text_color">#FFFFFF</color>
+
+
+    <color name="text_color">#333333</color>
+
+</resources>
